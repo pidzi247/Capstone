@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: white;
+  width: 100%;
 }
 
 header {
@@ -9,11 +10,7 @@ header {
   align-items:center;
   justify-content: space-between;
   height: 64px;
-  margin-top: 0;
-  position: fixed
-  z-index: 5;
   margin-left: 24px;
-
 }
 
 .logo {
@@ -65,4 +62,28 @@ li {
   align-items: center;
   font-size: 24px;
   font-weight: 500;
+}
+
+section.opening-container {
+  width: 100%;
+  display: inline-flex;
+  height: 700px;
+  background-color: #9f9a9a5e;
+  padding-left: 24px;
+}
+
+
+.box1, .box2 {
+  height: 600px;
+  border: 1px #795548 solid;
+  margin: 32px 0;
+  padding: 0 24px;
+}
+
+.box1 {
+  width: 60%;
+}
+
+.box2 {
+  width: 40%
 }
