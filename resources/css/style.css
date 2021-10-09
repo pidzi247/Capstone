@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  display:inline-flex;
+  align-items:center;
+  justify-content: space-between;
+  height: 64px;
+  margin-top: 0;
+  position: fixed
+  z-index: 5;
+  margin-left: 24px;
+
+}
+
+.logo {
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;}
+
+.logo-name {
+  height: 32px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.logo-icon {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#school {
+  font-size: 32px;
+  color: #a78f8f
+}
+
+span#type {
+  font-size: 32px;
+  color: #444e56;
+}
+.nav {
+  list-style-type:none
+}
+
+ul {
+  display: flex;
+  margin-right: 25px;
+}
+
+.link-box {
+  width: 16px;
+  background-color:#169d9d4f;
+  height: 64px
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+}
