@@ -1,3 +1,7 @@
+html {
+  font-family: Cambria;
+}
+
 body {
   margin: 0;
   background-color: white;
@@ -11,13 +15,17 @@ header {
   justify-content: space-between;
   height: 64px;
   margin-left: 24px;
+  position:fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .logo {
   height: 64px;
   display: flex;
   flex-direction: row;
-  align-items: center;}
+  align-items: center;
+}
 
 .logo-name {
   height: 32px;
@@ -41,13 +49,18 @@ span#type {
   font-size: 32px;
   color: #444e56;
 }
+
 .nav {
   list-style-type:none
 }
 
+nav {
+  margin-right: 24px;
+}
+
 ul {
   display: flex;
-  margin-right: 25px;
+  margin-right: 24px;
 }
 
 .link-box {
@@ -69,21 +82,66 @@ section.opening-container {
   display: inline-flex;
   height: 700px;
   background-color: #9f9a9a5e;
-  padding-left: 24px;
-}
-
-
-.box1, .box2 {
-  height: 600px;
-  border: 1px #795548 solid;
-  margin: 32px 0;
   padding: 0 24px;
+  align-items: center;
+  justify-content:center;
+  margin-top:64px;
 }
 
-.box1 {
+.leftside, .rightside {
+  height: 600px;
+  margin: 32px 0;
+  padding-right: 24px;
+}
+
+.leftside {
   width: 60%;
 }
 
-.box2 {
+.rightside {
   width: 40%
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.opening-article {
+  width:100%;
+  height:100%;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction:column;
+}
+
+.text-left,
+.button {
+  width:100%;
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+h1 {
+  color:grey;
+  font-size: 60px
+}
+
+h2 {
+  font-size: 36px;
+  color:grey;
+}
+
+.button {
+  font-size: 36px;
+  color:white;
+  background-color:#2d2b2b;  
+}
+
+.click {
+  margin: 8px auto;
 }
