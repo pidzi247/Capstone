@@ -218,3 +218,54 @@ a {
   margin-bottom: 32px;
   font-size: 18px;
 }
+
+.parts {
+  display: flex;
+  justify-content:center;
+  padding-bottom: 16px;
+  text-align: left;
+  height: 31%
+}
+
+.date {
+  width:65%;
+  line-height:2;
+  padding-left: 16px;
+  margin: auto 0;
+}
+
+.rightside h3 {
+  margin: 0;
+  font-size: 30px;
+  color:grey;
+}
+
+.rightside a {
+  color:blue;
+  font-size: 20px;
+}
+
+.rightside p {
+  color:grey;
+  font-size: 20px;
+}
+
+.rightside img {
+  width: 35%;
+  height: auto;
+  padding: 16px 0;
+}
+
+.our-campus {
+  width:65%;
+  line-height:2;
+  padding-left: 16px;
+  margin: auto 0;
+}
+
+.guest-lecture {
+    width:65%;
+  line-height:2;
+  padding-left: 16px;
+  margin: auto 0;
+}
