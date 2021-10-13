@@ -1,5 +1,6 @@
 html {
   font-family: Cambria;
+
 }
 
 body {
@@ -189,8 +190,7 @@ a {
   height: 100%;
   margin-top: 0;
   padding-top: 32px;
-  padding-left: 24px;
-  border-left: 1px solid #80808038
+  border-left: 1px solid #80808038;
 }
 
 
@@ -224,7 +224,8 @@ a {
   justify-content:center;
   padding-bottom: 16px;
   text-align: left;
-  height: 31%
+  height: 31%;
+  padding-left: 16px;
 }
 
 .date {
@@ -268,4 +269,12 @@ a {
   line-height:2;
   padding-left: 16px;
   margin: auto 0;
+}
+
+.parts.bg {
+  background-color: #9f9a9a5e;
+}
+
+.third-container {
+  background-color: #9f9a9a5e;
 }
